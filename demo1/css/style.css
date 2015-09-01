@@ -1,0 +1,156 @@
+/* line 96, features/*.png */
+.features-sprite, .features-chat, .features-collaboration, .features-park, .features-security, .features-share, .features-traffic {
+  background-image: url('../images/features-s03bec5cab1.png');
+  background-repeat: no-repeat; }
+
+/* line 84, ../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.features-chat {
+  background-position: 0 0; }
+
+/* line 84, ../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.features-collaboration {
+  background-position: 0 -116px; }
+
+/* line 84, ../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.features-park {
+  background-position: 0 -220px; }
+
+/* line 84, ../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.features-security {
+  background-position: 0 -318px; }
+
+/* line 84, ../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.features-share {
+  background-position: 0 -433px; }
+  /* line 59, ../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+  .features-share:hover, .features-share.share-hover {
+    background-position: 0 -537px; }
+
+/* line 84, ../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.features-traffic {
+  background-position: 0 -641px; }
+
+/* line 14, ../scss/style.scss */
+html, body {
+  height: 2000px; }
+
+/* line 15, ../scss/style.scss */
+.home {
+  background: url(../images/cafeteria.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 100%; }
+
+/* line 23, ../scss/style.scss */
+h2 {
+  color: #fd7400;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+/* line 27, ../scss/style.scss */
+.wow:first-child {
+  visibility: hidden; }
+
+/* line 28, ../scss/style.scss */
+.wow {
+  visibility: hidden; }
+
+/* line 30, ../scss/style.scss */
+.ballons, .ballonOne, .ballonTwo, .ballonThree, .ballonFour, .ballonFive, .ballonSix, .ballonSeven {
+  width: 124px;
+  height: 89px;
+  position: absolute; }
+
+/* line 31, ../scss/style.scss */
+.ballonOne {
+  left: 5%;
+  top: 5%; }
+
+/* line 32, ../scss/style.scss */
+.ballonTwo {
+  left: 3.5%;
+  top: 29.0%; }
+
+/* line 33, ../scss/style.scss */
+.ballonThree {
+  left: 29.0%;
+  top: 21.5%; }
+
+/* line 34, ../scss/style.scss */
+.ballonFour {
+  left: 49.5%;
+  top: 21.5%; }
+
+/* line 35, ../scss/style.scss */
+.ballonFive {
+  left: 69%;
+  top: 23.5%; }
+
+/* line 36, ../scss/style.scss */
+.ballonSix {
+  left: 10%;
+  bottom: 51.4%; }
+
+/* line 37, ../scss/style.scss */
+.ballonSeven {
+  right: 30%;
+  bottom: 14.0%; }
+
+/* line 40, ../scss/style.scss */
+.ficonwrap {
+  width: 120px;
+  height: 120px;
+  border: #fd7400 solid 2px;
+  margin: 0 auto;
+  margin-bottom: 26px;
+  padding: 20px 15px 20px 25px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px; }
+
+/* line 52, ../scss/style.scss */
+.ficon {
+  width: 90px;
+  height: 90px; }
+
+/* line 58, ../scss/style.scss */
+.features h4 {
+  text-align: center; }
+/* line 59, ../scss/style.scss */
+.features p {
+  margin: 20px 0 40px 0;
+  text-align: center; }
+
+/* line 62, ../scss/style.scss */
+.steps {
+  margin-right: -220px; }
+
+/* line 63, ../scss/style.scss */
+.how-its-wroks {
+  background: url(../images/bg-1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  /* line 72, ../scss/style.scss */
+  .how-its-wroks h2 {
+    color: #fff; }
+  /* line 73, ../scss/style.scss */
+  .how-its-wroks .points, .how-its-wroks .points1, .how-its-wroks .points2, .how-its-wroks .points3, .how-its-wroks .points4 {
+    position: absolute;
+    right: 150px;
+    font-size: 1.4em;
+    padding-top: 5px;
+    color: #fff; }
+  /* line 75, ../scss/style.scss */
+  .how-its-wroks .points2 {
+    top: 94px; }
+  /* line 76, ../scss/style.scss */
+  .how-its-wroks .points3 {
+    top: 305px; }
+  /* line 77, ../scss/style.scss */
+  .how-its-wroks .points4 {
+    top: 400px; }
