@@ -30,11 +30,7 @@
 .features-traffic {
   background-position: 0 -641px; }
 
-/* line 14, ../scss/style.scss */
-html, body {
-  height: 2000px; }
-
-/* line 15, ../scss/style.scss */
+/* line 28, ../scss/style.scss */
 .home {
   background: url(../images/cafeteria.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -44,67 +40,67 @@ html, body {
   width: 100%;
   height: 100%; }
 
-/* line 22, ../scss/style.scss */
+/* line 36, ../scss/style.scss */
 .img-fluid {
   width: 100%;
   height: auto; }
 
-/* line 23, ../scss/style.scss */
+/* line 37, ../scss/style.scss */
 h2 {
   color: #fd7400;
   margin-top: 50px;
   margin-bottom: 50px; }
 
-/* line 27, ../scss/style.scss */
+/* line 43, ../scss/style.scss */
 .wow:first-child {
   visibility: hidden; }
 
-/* line 28, ../scss/style.scss */
+/* line 44, ../scss/style.scss */
 .wow {
   visibility: hidden; }
 
-/* line 30, ../scss/style.scss */
+/* line 46, ../scss/style.scss */
 .ballons, .ballonOne, .ballonTwo, .ballonThree, .ballonFour, .ballonFive, .ballonSix, .ballonSeven {
   width: 124px;
   height: 89px;
   position: absolute; }
 
-/* line 31, ../scss/style.scss */
+/* line 47, ../scss/style.scss */
 .ballonOne {
   left: 5%;
   top: 5%; }
 
-/* line 32, ../scss/style.scss */
+/* line 48, ../scss/style.scss */
 .ballonTwo {
   left: 3.5%;
   top: 29.0%; }
 
-/* line 33, ../scss/style.scss */
+/* line 49, ../scss/style.scss */
 .ballonThree {
   left: 29.0%;
   top: 21.5%; }
 
-/* line 34, ../scss/style.scss */
+/* line 50, ../scss/style.scss */
 .ballonFour {
   left: 49.5%;
   top: 21.5%; }
 
-/* line 35, ../scss/style.scss */
+/* line 51, ../scss/style.scss */
 .ballonFive {
   left: 69%;
   top: 23.5%; }
 
-/* line 36, ../scss/style.scss */
+/* line 52, ../scss/style.scss */
 .ballonSix {
   left: 10%;
   bottom: 51.4%; }
 
-/* line 37, ../scss/style.scss */
+/* line 53, ../scss/style.scss */
 .ballonSeven {
   right: 30%;
   bottom: 14.0%; }
 
-/* line 40, ../scss/style.scss */
+/* line 56, ../scss/style.scss */
 .ficonwrap {
   width: 120px;
   height: 120px;
@@ -116,46 +112,196 @@ h2 {
   -webkit-border-radius: 10px;
   border-radius: 10px; }
 
-/* line 52, ../scss/style.scss */
+/* line 68, ../scss/style.scss */
 .ficon {
   width: 90px;
   height: 90px; }
 
-/* line 58, ../scss/style.scss */
+/* line 74, ../scss/style.scss */
 .features h4 {
   text-align: center; }
-/* line 59, ../scss/style.scss */
+/* line 75, ../scss/style.scss */
 .features p {
   margin: 20px 0 40px 0;
   text-align: center; }
 
-/* line 62, ../scss/style.scss */
+/* line 78, ../scss/style.scss */
 .steps {
   margin-right: -220px; }
 
-/* line 63, ../scss/style.scss */
+/* line 79, ../scss/style.scss */
 .how-its-wroks {
   background: url(../images/bg-1.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-  /* line 72, ../scss/style.scss */
+  /* line 88, ../scss/style.scss */
   .how-its-wroks h2 {
     color: #fff; }
-  /* line 73, ../scss/style.scss */
+  /* line 89, ../scss/style.scss */
   .how-its-wroks .points, .how-its-wroks .points1, .how-its-wroks .points2, .how-its-wroks .points3, .how-its-wroks .points4 {
     position: absolute;
     right: 150px;
     font-size: 1.4em;
     padding-top: 5px;
     color: #fff; }
-  /* line 75, ../scss/style.scss */
+  /* line 91, ../scss/style.scss */
   .how-its-wroks .points2 {
     top: 94px; }
-  /* line 76, ../scss/style.scss */
+  /* line 92, ../scss/style.scss */
   .how-its-wroks .points3 {
     top: 305px; }
-  /* line 77, ../scss/style.scss */
+  /* line 93, ../scss/style.scss */
   .how-its-wroks .points4 {
     top: 400px; }
+
+/* line 96, ../scss/style.scss */
+#myCarouselThree {
+  width: 196px;
+  position: absolute;
+  left: 33.9%;
+  top: 14%;
+  z-index: 999; }
+
+/* line 98, ../scss/style.scss */
+.screens {
+  background: #fef8f2; }
+
+/* line 99, ../scss/style.scss */
+.video {
+  background: #fef8f2; }
+
+/* line 100, ../scss/style.scss */
+.video h5 {
+  font-style: italic;
+  color: #cc3344;
+  font-size: 30px;
+  margin-bottom: 30px;
+  margin-top: -30px; }
+
+/* line 103, ../scss/style.scss */
+.myCarouselTwo .bg-primary {
+  background: #fd7400 url(../images/Triangle-Bottom-Left.png) no-repeat 100% 0;
+  padding: 100px 0; }
+/* line 104, ../scss/style.scss */
+.myCarouselTwo .dp-photo {
+  width: 150px;
+  height: 150px;
+  border: #fd7400 solid 1px;
+  -moz-border-radius: 75px;
+  -webkit-border-radius: 75px;
+  border-radius: 75px;
+  margin-left: 30%; }
+/* line 119, ../scss/style.scss */
+.myCarouselTwo .db-1 {
+  background: url(../images/db/db-1.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+/* line 120, ../scss/style.scss */
+.myCarouselTwo .db-2 {
+  background: url(../images/db/db-2.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+/* line 121, ../scss/style.scss */
+.myCarouselTwo .db-3 {
+  background: url(../images/db/db-3.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+/* line 122, ../scss/style.scss */
+.myCarouselTwo .db-4 {
+  background: url(../images/db/db-4.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+/* line 123, ../scss/style.scss */
+.myCarouselTwo .db-5 {
+  background: url(../images/db/db-5.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+/* line 124, ../scss/style.scss */
+.myCarouselTwo .db-6 {
+  background: url(../images/db/db-6.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+/* line 127, ../scss/style.scss */
+.myCarouselTwo .reviews .col-sm-6 {
+  padding: 0; }
+/* line 129, ../scss/style.scss */
+.myCarouselTwo .content-reveiw {
+  text-align: center;
+  padding: 80px 100px 50px 0px;
+  font-size: 1.3em; }
+  /* line 133, ../scss/style.scss */
+  .myCarouselTwo .content-reveiw .content-reveiw em {
+    font-size: 2em; }
+
+/* line 137, ../scss/style.scss */
+.subscribe {
+  padding: 50px 0 80px; }
+  /* line 138, ../scss/style.scss */
+  .subscribe p {
+    font-size: 2em; }
+  /* line 139, ../scss/style.scss */
+  .subscribe .pull-left {
+    margin-left: 20px; }
+  /* line 140, ../scss/style.scss */
+  .subscribe .form-control {
+    width: 350px;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    padding: 20px 10px; }
+  /* line 141, ../scss/style.scss */
+  .subscribe .btn-primary {
+    border: #333 solid 1px;
+    color: #333;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    background: #fff;
+    padding: 8px 25px; }
+
+/* line 144, ../scss/style.scss */
+.social-media {
+  background: #fd7400;
+  text-align: center;
+  padding: 80px 0; }
+  /* line 145, ../scss/style.scss */
+  .social-media h3 {
+    color: #fff0e4;
+    padding-bottom: 20px; }
+  /* line 146, ../scss/style.scss */
+  .social-media .btn-primary {
+    border: #fff0e4 solid 2px;
+    color: #fff0e4;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    background: #fd7400;
+    padding: 8px 25px;
+    margin-left: 5px; }
+
+/* line 156, ../scss/style.scss */
+.copyright {
+  background: #464646;
+  padding: 20px 0;
+  color: #b9b9b9; }
+  /* line 157, ../scss/style.scss */
+  .copyright a {
+    color: #b9b9b9;
+    margin-left: 15px; }
+    /* line 158, ../scss/style.scss */
+    .copyright a:hover {
+      text-decoration: none; }
