@@ -1,6 +1,6 @@
 /* line 96, features/*.png */
 .features-sprite, .features-chat, .features-collaboration, .features-park, .features-security, .features-share, .features-traffic {
-  background-image: url('../images/features-s03bec5cab1.png');
+  background-image: url('../images/features-s6767c1a046.png');
   background-repeat: no-repeat; }
 
 /* line 84, ../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
@@ -30,7 +30,12 @@
 .features-traffic {
   background-position: 0 -641px; }
 
-/* line 28, ../scss/style.scss */
+/* line 2, ../scss/base/_reset.scss */
+html,
+body {
+  overflow-x: hidden; }
+
+/* line 7, ../scss/base/_reset.scss */
 .home {
   background: url(../images/cafeteria.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -40,67 +45,67 @@
   width: 100%;
   height: 100%; }
 
-/* line 36, ../scss/style.scss */
+/* line 14, ../scss/base/_reset.scss */
 .img-fluid {
   width: 100%;
   height: auto; }
 
-/* line 37, ../scss/style.scss */
+/* line 19, ../scss/base/_reset.scss */
 h2 {
   color: #fd7400;
   margin-top: 50px;
   margin-bottom: 50px; }
 
-/* line 43, ../scss/style.scss */
+/* line 1, ../scss/base/_home.scss */
 .wow:first-child {
   visibility: hidden; }
 
-/* line 44, ../scss/style.scss */
+/* line 5, ../scss/base/_home.scss */
 .wow {
   visibility: hidden; }
 
-/* line 46, ../scss/style.scss */
+/* line 9, ../scss/base/_home.scss */
 .ballons, .ballonOne, .ballonTwo, .ballonThree, .ballonFour, .ballonFive, .ballonSix, .ballonSeven {
   width: 124px;
   height: 89px;
   position: absolute; }
 
-/* line 47, ../scss/style.scss */
+/* line 15, ../scss/base/_home.scss */
 .ballonOne {
   left: 5%;
   top: 5%; }
 
-/* line 48, ../scss/style.scss */
+/* line 21, ../scss/base/_home.scss */
 .ballonTwo {
   left: 3.5%;
   top: 29.0%; }
 
-/* line 49, ../scss/style.scss */
+/* line 27, ../scss/base/_home.scss */
 .ballonThree {
   left: 29.0%;
   top: 21.5%; }
 
-/* line 50, ../scss/style.scss */
+/* line 33, ../scss/base/_home.scss */
 .ballonFour {
   left: 49.5%;
   top: 21.5%; }
 
-/* line 51, ../scss/style.scss */
+/* line 39, ../scss/base/_home.scss */
 .ballonFive {
   left: 69%;
   top: 23.5%; }
 
-/* line 52, ../scss/style.scss */
+/* line 45, ../scss/base/_home.scss */
 .ballonSix {
   left: 10%;
   bottom: 51.4%; }
 
-/* line 53, ../scss/style.scss */
+/* line 51, ../scss/base/_home.scss */
 .ballonSeven {
   right: 30%;
   bottom: 14.0%; }
 
-/* line 56, ../scss/style.scss */
+/* line 3, ../scss/base/_features.scss */
 .ficonwrap {
   width: 120px;
   height: 120px;
@@ -112,51 +117,55 @@ h2 {
   -webkit-border-radius: 10px;
   border-radius: 10px; }
 
-/* line 68, ../scss/style.scss */
+/* line 14, ../scss/base/_features.scss */
 .ficon {
   width: 90px;
   height: 90px; }
 
-/* line 74, ../scss/style.scss */
+/* line 21, ../scss/base/_features.scss */
 .features h4 {
   text-align: center; }
-/* line 75, ../scss/style.scss */
+/* line 24, ../scss/base/_features.scss */
 .features p {
   margin: 20px 0 40px 0;
   text-align: center; }
 
-/* line 78, ../scss/style.scss */
+/* line 30, ../scss/base/_features.scss */
 .steps {
   margin-right: -220px; }
 
-/* line 79, ../scss/style.scss */
+/* line 35, ../scss/base/_features.scss */
+.steps-5 {
+  color: #fd7400; }
+
+/* line 1, ../scss/base/_how-its-work.scss */
 .how-its-wroks {
   background: url(../images/bg-1.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-  /* line 88, ../scss/style.scss */
+  /* line 4, ../scss/base/_how-its-work.scss */
   .how-its-wroks h2 {
     color: #fff; }
-  /* line 89, ../scss/style.scss */
+  /* line 7, ../scss/base/_how-its-work.scss */
   .how-its-wroks .points, .how-its-wroks .points1, .how-its-wroks .points2, .how-its-wroks .points3, .how-its-wroks .points4 {
     position: absolute;
-    right: 150px;
+    right: 180px;
     font-size: 1.4em;
-    padding-top: 5px;
+    padding-top: 0px;
     color: #fff; }
-  /* line 91, ../scss/style.scss */
+  /* line 17, ../scss/base/_how-its-work.scss */
   .how-its-wroks .points2 {
     top: 94px; }
-  /* line 92, ../scss/style.scss */
+  /* line 21, ../scss/base/_how-its-work.scss */
   .how-its-wroks .points3 {
     top: 305px; }
-  /* line 93, ../scss/style.scss */
+  /* line 25, ../scss/base/_how-its-work.scss */
   .how-its-wroks .points4 {
     top: 400px; }
 
-/* line 96, ../scss/style.scss */
+/* line 31, ../scss/base/_how-its-work.scss */
 #myCarouselThree {
   width: 196px;
   position: absolute;
@@ -164,15 +173,15 @@ h2 {
   top: 14%;
   z-index: 999; }
 
-/* line 98, ../scss/style.scss */
+/* line 39, ../scss/base/_how-its-work.scss */
 .screens {
   background: #fef8f2; }
 
-/* line 99, ../scss/style.scss */
+/* line 43, ../scss/base/_how-its-work.scss */
 .video {
   background: #fef8f2; }
 
-/* line 100, ../scss/style.scss */
+/* line 47, ../scss/base/_how-its-work.scss */
 .video h5 {
   font-style: italic;
   color: #cc3344;
@@ -180,11 +189,109 @@ h2 {
   margin-bottom: 30px;
   margin-top: -30px; }
 
-/* line 103, ../scss/style.scss */
+/* line 55, ../scss/base/_how-its-work.scss */
+.carousel-indicators-HowItWorks {
+  top: -90px;
+  left: -196%;
+  margin-left: 0%; }
+  /* line 59, ../scss/base/_how-its-work.scss */
+  .carousel-indicators-HowItWorks li {
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    border: 0px solid #fff;
+    border-radius: 0px;
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    -moz-filter: grayscale(1);
+    -o-filter: grayscale(1);
+    -ms-filter: grayscale(1); }
+  /* line 74, ../scss/base/_how-its-work.scss */
+  .carousel-indicators-HowItWorks .active {
+    width: 64px;
+    height: 64px;
+    margin: 0;
+    background-color: transparent;
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    -moz-filter: grayscale(0);
+    -o-filter: grayscale(0);
+    -ms-filter: grayscale(0); }
+  /* line 83, ../scss/base/_how-its-work.scss */
+  .carousel-indicators-HowItWorks .step-1 {
+    background: url(../images/step-1.png) no-repeat center center;
+    margin-bottom: 26px; }
+  /* line 88, ../scss/base/_how-its-work.scss */
+  .carousel-indicators-HowItWorks .step-2 {
+    background: url(../images/step-2.png) no-repeat center center;
+    margin-bottom: 153px; }
+  /* line 93, ../scss/base/_how-its-work.scss */
+  .carousel-indicators-HowItWorks .step-3 {
+    background: url(../images/step-3.png) no-repeat center center;
+    margin-bottom: 30px; }
+  /* line 98, ../scss/base/_how-its-work.scss */
+  .carousel-indicators-HowItWorks .step-4 {
+    background: url(../images/step-4.png) no-repeat center center; }
+
+/* line 3, ../scss/base/_reveiw.scss */
+.carousel-indicatorsTwo {
+  position: relative;
+  bottom: 10px;
+  left: 0%;
+  z-index: 15;
+  width: 100%;
+  padding-left: 0;
+  margin-left: 0%;
+  text-align: center;
+  list-style: none; }
+  /* line 13, ../scss/base/_reveiw.scss */
+  .carousel-indicatorsTwo .active {
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    -moz-filter: grayscale(0);
+    -o-filter: grayscale(0);
+    -ms-filter: grayscale(0);
+    border: #fd7400 solid 2px; }
+  /* line 17, ../scss/base/_reveiw.scss */
+  .carousel-indicatorsTwo li {
+    width: 120px;
+    height: 120px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000 \9;
+    background-color: transparent;
+    border-radius: 0px;
+    float: left;
+    margin-bottom: 5px;
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    -moz-filter: grayscale(1);
+    -o-filter: grayscale(1);
+    -ms-filter: grayscale(1);
+    border: transparent solid 2px; }
+    /* line 30, ../scss/base/_reveiw.scss */
+    .carousel-indicatorsTwo li:hover {
+      filter: grayscale(0);
+      -webkit-filter: grayscale(0);
+      -moz-filter: grayscale(0);
+      -o-filter: grayscale(0);
+      -ms-filter: grayscale(0);
+      border: #fd7400 solid 2px; }
+  /* line 35, ../scss/base/_reveiw.scss */
+  .carousel-indicatorsTwo .active {
+    width: 120px;
+    height: 121px;
+    margin-bottom: 5px; }
+
+/* line 47, ../scss/base/_reveiw.scss */
 .myCarouselTwo .bg-primary {
   background: #fd7400 url(../images/Triangle-Bottom-Left.png) no-repeat 100% 0;
-  padding: 100px 0; }
-/* line 104, ../scss/style.scss */
+  padding: 80px 0; }
+/* line 51, ../scss/base/_reveiw.scss */
 .myCarouselTwo .dp-photo {
   width: 150px;
   height: 150px;
@@ -193,77 +300,323 @@ h2 {
   -webkit-border-radius: 75px;
   border-radius: 75px;
   margin-left: 30%; }
-/* line 119, ../scss/style.scss */
-.myCarouselTwo .db-1 {
+/* line 59, ../scss/base/_reveiw.scss */
+.myCarouselTwo .db-1,
+.myCarouselTwo .display-pic-1 {
   background: url(../images/db/db-1.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-/* line 120, ../scss/style.scss */
-.myCarouselTwo .db-2 {
+/* line 64, ../scss/base/_reveiw.scss */
+.myCarouselTwo .db-2,
+.myCarouselTwo .display-pic-2 {
   background: url(../images/db/db-2.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-/* line 121, ../scss/style.scss */
-.myCarouselTwo .db-3 {
+/* line 69, ../scss/base/_reveiw.scss */
+.myCarouselTwo .db-3,
+.myCarouselTwo .display-pic-3 {
   background: url(../images/db/db-3.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-/* line 122, ../scss/style.scss */
-.myCarouselTwo .db-4 {
+/* line 74, ../scss/base/_reveiw.scss */
+.myCarouselTwo .db-4,
+.myCarouselTwo .display-pic-4 {
   background: url(../images/db/db-4.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-/* line 123, ../scss/style.scss */
-.myCarouselTwo .db-5 {
+/* line 79, ../scss/base/_reveiw.scss */
+.myCarouselTwo .db-5,
+.myCarouselTwo .display-pic-5 {
   background: url(../images/db/db-5.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-/* line 124, ../scss/style.scss */
-.myCarouselTwo .db-6 {
+/* line 84, ../scss/base/_reveiw.scss */
+.myCarouselTwo .db-6,
+.myCarouselTwo .display-pic-6 {
   background: url(../images/db/db-6.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-/* line 127, ../scss/style.scss */
+/* line 89, ../scss/base/_reveiw.scss */
+.myCarouselTwo .db-7,
+.myCarouselTwo .display-pic-7 {
+  background: url(../images/db/db-7.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+/* line 94, ../scss/base/_reveiw.scss */
+.myCarouselTwo .db-8,
+.myCarouselTwo .display-pic-8 {
+  background: url(../images/db/db-8.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+/* line 99, ../scss/base/_reveiw.scss */
+.myCarouselTwo .db-9,
+.myCarouselTwo .display-pic-9 {
+  background: url(../images/db/db-9.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+/* line 104, ../scss/base/_reveiw.scss */
+.myCarouselTwo .db-10,
+.myCarouselTwo .display-pic-10 {
+  background: url(../images/db/db-10.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+/* line 109, ../scss/base/_reveiw.scss */
+.myCarouselTwo .db-11,
+.myCarouselTwo .display-pic-11 {
+  background: url(../images/db/db-11.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+/* line 114, ../scss/base/_reveiw.scss */
+.myCarouselTwo .db-12,
+.myCarouselTwo .display-pic-12 {
+  background: url(../images/db/db-12.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+/* line 119, ../scss/base/_reveiw.scss */
+.myCarouselTwo .db-13,
+.myCarouselTwo .display-pic-13 {
+  background: url(../images/db/db-13.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+/* line 124, ../scss/base/_reveiw.scss */
+.myCarouselTwo .db-14,
+.myCarouselTwo .display-pic-14 {
+  background: url(../images/db/db-14.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+/* line 129, ../scss/base/_reveiw.scss */
+.myCarouselTwo .db-15,
+.myCarouselTwo .display-pic-15 {
+  background: url(../images/db/db-15.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+/* line 134, ../scss/base/_reveiw.scss */
+.myCarouselTwo .db-16,
+.myCarouselTwo .display-pic-16 {
+  background: url(../images/db/db-16.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+/* line 139, ../scss/base/_reveiw.scss */
+.myCarouselTwo .db-17,
+.myCarouselTwo .display-pic-17 {
+  background: url(../images/db/db-17.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+/* line 144, ../scss/base/_reveiw.scss */
+.myCarouselTwo .db-18,
+.myCarouselTwo .display-pic-18 {
+  background: url(../images/db/db-18.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+/* line 149, ../scss/base/_reveiw.scss */
+.myCarouselTwo .db-19,
+.myCarouselTwo .display-pic-19 {
+  background: url(../images/db/db-19.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+/* line 154, ../scss/base/_reveiw.scss */
+.myCarouselTwo .db-20,
+.myCarouselTwo .display-pic-20 {
+  background: url(../images/db/db-20.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+/* line 159, ../scss/base/_reveiw.scss */
+.myCarouselTwo .db-21,
+.myCarouselTwo .display-pic-21 {
+  background: url(../images/db/db-21.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+/* line 164, ../scss/base/_reveiw.scss */
+.myCarouselTwo .db-22,
+.myCarouselTwo .display-pic-22 {
+  background: url(../images/db/db-22.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+/* line 169, ../scss/base/_reveiw.scss */
+.myCarouselTwo .db-23,
+.myCarouselTwo .display-pic-23 {
+  background: url(../images/db/db-23.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+/* line 174, ../scss/base/_reveiw.scss */
+.myCarouselTwo .db-24,
+.myCarouselTwo .display-pic-24 {
+  background: url(../images/db/db-24.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+/* line 179, ../scss/base/_reveiw.scss */
+.myCarouselTwo .db-25,
+.myCarouselTwo .display-pic-25 {
+  background: url(../images/db/db-25.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+/* line 184, ../scss/base/_reveiw.scss */
+.myCarouselTwo .db-26,
+.myCarouselTwo .display-pic-26 {
+  background: url(../images/db/db-26.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+/* line 189, ../scss/base/_reveiw.scss */
+.myCarouselTwo .db-27,
+.myCarouselTwo .display-pic-27 {
+  background: url(../images/db/db-27.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+/* line 194, ../scss/base/_reveiw.scss */
+.myCarouselTwo .db-28,
+.myCarouselTwo .display-pic-28 {
+  background: url(../images/db/db-28.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+/* line 199, ../scss/base/_reveiw.scss */
+.myCarouselTwo .db-29,
+.myCarouselTwo .display-pic-29 {
+  background: url(../images/db/db-29.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+/* line 204, ../scss/base/_reveiw.scss */
+.myCarouselTwo .db-30,
+.myCarouselTwo .display-pic-30 {
+  background: url(../images/db/db-30.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+/* line 209, ../scss/base/_reveiw.scss */
+.myCarouselTwo .db-31,
+.myCarouselTwo .display-pic-31 {
+  background: url(../images/db/db-31.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+/* line 214, ../scss/base/_reveiw.scss */
+.myCarouselTwo .db-32,
+.myCarouselTwo .display-pic-32 {
+  background: url(../images/db/db-32.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+/* line 219, ../scss/base/_reveiw.scss */
+.myCarouselTwo .db-33,
+.myCarouselTwo .display-pic-33 {
+  background: url(../images/db/db-33.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+/* line 224, ../scss/base/_reveiw.scss */
+.myCarouselTwo .db-34,
+.myCarouselTwo .display-pic-34 {
+  background: url(../images/db/db-34.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+/* line 229, ../scss/base/_reveiw.scss */
+.myCarouselTwo .db-35,
+.myCarouselTwo .display-pic-35 {
+  background: url(../images/db/db-35.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+/* line 234, ../scss/base/_reveiw.scss */
+.myCarouselTwo .db-36,
+.myCarouselTwo .display-pic-36 {
+  background: url(../images/db/db-36.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+/* line 240, ../scss/base/_reveiw.scss */
 .myCarouselTwo .reviews .col-sm-6 {
   padding: 0; }
-/* line 129, ../scss/style.scss */
+/* line 244, ../scss/base/_reveiw.scss */
 .myCarouselTwo .content-reveiw {
   text-align: center;
   padding: 80px 100px 50px 0px;
   font-size: 1.3em; }
-  /* line 133, ../scss/style.scss */
+  /* line 248, ../scss/base/_reveiw.scss */
   .myCarouselTwo .content-reveiw .content-reveiw em {
     font-size: 2em; }
 
-/* line 137, ../scss/style.scss */
+/* line 2, ../scss/base/_footer.scss */
 .subscribe {
   padding: 50px 0 80px; }
-  /* line 138, ../scss/style.scss */
+  /* line 4, ../scss/base/_footer.scss */
   .subscribe p {
     font-size: 2em; }
-  /* line 139, ../scss/style.scss */
+  /* line 7, ../scss/base/_footer.scss */
   .subscribe .pull-left {
     margin-left: 20px; }
-  /* line 140, ../scss/style.scss */
+  /* line 10, ../scss/base/_footer.scss */
   .subscribe .form-control {
     width: 350px;
     -moz-border-radius: 0;
     -webkit-border-radius: 0;
     border-radius: 0;
     padding: 20px 10px; }
-  /* line 141, ../scss/style.scss */
+  /* line 15, ../scss/base/_footer.scss */
   .subscribe .btn-primary {
     border: #333 solid 1px;
     color: #333;
@@ -273,16 +626,16 @@ h2 {
     background: #fff;
     padding: 8px 25px; }
 
-/* line 144, ../scss/style.scss */
+/* line 24, ../scss/base/_footer.scss */
 .social-media {
   background: #fd7400;
   text-align: center;
   padding: 80px 0; }
-  /* line 145, ../scss/style.scss */
+  /* line 28, ../scss/base/_footer.scss */
   .social-media h3 {
     color: #fff0e4;
     padding-bottom: 20px; }
-  /* line 146, ../scss/style.scss */
+  /* line 32, ../scss/base/_footer.scss */
   .social-media .btn-primary {
     border: #fff0e4 solid 2px;
     color: #fff0e4;
@@ -293,15 +646,24 @@ h2 {
     padding: 8px 25px;
     margin-left: 5px; }
 
-/* line 156, ../scss/style.scss */
+/* line 42, ../scss/base/_footer.scss */
 .copyright {
   background: #464646;
   padding: 20px 0;
   color: #b9b9b9; }
-  /* line 157, ../scss/style.scss */
+  /* line 46, ../scss/base/_footer.scss */
   .copyright a {
     color: #b9b9b9;
     margin-left: 15px; }
-    /* line 158, ../scss/style.scss */
+    /* line 49, ../scss/base/_footer.scss */
     .copyright a:hover {
       text-decoration: none; }
+
+/* line 55, ../scss/base/_footer.scss */
+.rocket {
+  position: relative; }
+  /* line 57, ../scss/base/_footer.scss */
+  .rocket div {
+    position: absolute;
+    right: 15px;
+    bottom: 0; }
