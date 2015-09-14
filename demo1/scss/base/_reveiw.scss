@@ -13,6 +13,9 @@
 	.active {
 		@include grayscale(0);
 		border: $color-primary solid 2px;
+		
+      
+       
 	}
 	li {
 		width: 120px;
@@ -30,6 +33,7 @@
 		&:hover {
 			@include grayscale(0);
 			border: $color-primary solid 2px;
+			
 		}
 	}
 	.active {

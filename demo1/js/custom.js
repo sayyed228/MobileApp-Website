@@ -18,6 +18,11 @@ $('.carousel-indicators li').click(function(){
 	
   var winHeight = $(window).height();	
 	$('.home').height(winHeight);
+	
+	var ballonsix = winHeight;
+	$('.ballonSix').css("top",ballonsix+'px');
+	$('.ballonSix').css("margin-top",'-430px');
+	//alert(ballonsix);
   });
  
  

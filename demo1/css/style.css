@@ -3,30 +3,30 @@
   background-image: url('../images/features-s6767c1a046.png');
   background-repeat: no-repeat; }
 
-/* line 84, ../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .features-chat {
   background-position: 0 0; }
 
-/* line 84, ../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .features-collaboration {
   background-position: 0 -116px; }
 
-/* line 84, ../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .features-park {
   background-position: 0 -220px; }
 
-/* line 84, ../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .features-security {
   background-position: 0 -318px; }
 
-/* line 84, ../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .features-share {
   background-position: 0 -433px; }
-  /* line 59, ../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+  /* line 59, ../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
   .features-share:hover, .features-share.share-hover {
     background-position: 0 -537px; }
 
-/* line 84, ../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .features-traffic {
   background-position: 0 -641px; }
 
@@ -98,9 +98,10 @@ h2 {
 /* line 45, ../scss/base/_home.scss */
 .ballonSix {
   left: 10%;
-  bottom: 51.4%; }
+  /*bottom: 0;
+  margin-top:-428px;*/ }
 
-/* line 51, ../scss/base/_home.scss */
+/* line 52, ../scss/base/_home.scss */
 .ballonSeven {
   right: 30%;
   bottom: 14.0%; }
@@ -255,7 +256,7 @@ h2 {
     -o-filter: grayscale(0);
     -ms-filter: grayscale(0);
     border: #fd7400 solid 2px; }
-  /* line 17, ../scss/base/_reveiw.scss */
+  /* line 20, ../scss/base/_reveiw.scss */
   .carousel-indicatorsTwo li {
     width: 120px;
     height: 120px;
@@ -273,7 +274,7 @@ h2 {
     -o-filter: grayscale(1);
     -ms-filter: grayscale(1);
     border: transparent solid 2px; }
-    /* line 30, ../scss/base/_reveiw.scss */
+    /* line 33, ../scss/base/_reveiw.scss */
     .carousel-indicatorsTwo li:hover {
       filter: grayscale(0);
       -webkit-filter: grayscale(0);
@@ -281,17 +282,17 @@ h2 {
       -o-filter: grayscale(0);
       -ms-filter: grayscale(0);
       border: #fd7400 solid 2px; }
-  /* line 35, ../scss/base/_reveiw.scss */
+  /* line 39, ../scss/base/_reveiw.scss */
   .carousel-indicatorsTwo .active {
     width: 120px;
     height: 121px;
     margin-bottom: 5px; }
 
-/* line 47, ../scss/base/_reveiw.scss */
+/* line 51, ../scss/base/_reveiw.scss */
 .myCarouselTwo .bg-primary {
   background: #fd7400 url(../images/Triangle-Bottom-Left.png) no-repeat 100% 0;
   padding: 80px 0; }
-/* line 51, ../scss/base/_reveiw.scss */
+/* line 55, ../scss/base/_reveiw.scss */
 .myCarouselTwo .dp-photo {
   width: 150px;
   height: 150px;
@@ -300,7 +301,7 @@ h2 {
   -webkit-border-radius: 75px;
   border-radius: 75px;
   margin-left: 30%; }
-/* line 59, ../scss/base/_reveiw.scss */
+/* line 63, ../scss/base/_reveiw.scss */
 .myCarouselTwo .db-1,
 .myCarouselTwo .display-pic-1 {
   background: url(../images/db/db-1.jpg) no-repeat center center;
@@ -308,7 +309,7 @@ h2 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-/* line 64, ../scss/base/_reveiw.scss */
+/* line 68, ../scss/base/_reveiw.scss */
 .myCarouselTwo .db-2,
 .myCarouselTwo .display-pic-2 {
   background: url(../images/db/db-2.jpg) no-repeat center center;
@@ -316,7 +317,7 @@ h2 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-/* line 69, ../scss/base/_reveiw.scss */
+/* line 73, ../scss/base/_reveiw.scss */
 .myCarouselTwo .db-3,
 .myCarouselTwo .display-pic-3 {
   background: url(../images/db/db-3.jpg) no-repeat center center;
@@ -324,7 +325,7 @@ h2 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-/* line 74, ../scss/base/_reveiw.scss */
+/* line 78, ../scss/base/_reveiw.scss */
 .myCarouselTwo .db-4,
 .myCarouselTwo .display-pic-4 {
   background: url(../images/db/db-4.jpg) no-repeat center center;
@@ -332,7 +333,7 @@ h2 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-/* line 79, ../scss/base/_reveiw.scss */
+/* line 83, ../scss/base/_reveiw.scss */
 .myCarouselTwo .db-5,
 .myCarouselTwo .display-pic-5 {
   background: url(../images/db/db-5.jpg) no-repeat center center;
@@ -340,7 +341,7 @@ h2 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-/* line 84, ../scss/base/_reveiw.scss */
+/* line 88, ../scss/base/_reveiw.scss */
 .myCarouselTwo .db-6,
 .myCarouselTwo .display-pic-6 {
   background: url(../images/db/db-6.jpg) no-repeat center center;
@@ -348,7 +349,7 @@ h2 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-/* line 89, ../scss/base/_reveiw.scss */
+/* line 93, ../scss/base/_reveiw.scss */
 .myCarouselTwo .db-7,
 .myCarouselTwo .display-pic-7 {
   background: url(../images/db/db-7.jpg) no-repeat center center;
@@ -356,7 +357,7 @@ h2 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-/* line 94, ../scss/base/_reveiw.scss */
+/* line 98, ../scss/base/_reveiw.scss */
 .myCarouselTwo .db-8,
 .myCarouselTwo .display-pic-8 {
   background: url(../images/db/db-8.jpg) no-repeat center center;
@@ -364,7 +365,7 @@ h2 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-/* line 99, ../scss/base/_reveiw.scss */
+/* line 103, ../scss/base/_reveiw.scss */
 .myCarouselTwo .db-9,
 .myCarouselTwo .display-pic-9 {
   background: url(../images/db/db-9.jpg) no-repeat center center;
@@ -372,7 +373,7 @@ h2 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-/* line 104, ../scss/base/_reveiw.scss */
+/* line 108, ../scss/base/_reveiw.scss */
 .myCarouselTwo .db-10,
 .myCarouselTwo .display-pic-10 {
   background: url(../images/db/db-10.jpg) no-repeat center center;
@@ -380,7 +381,7 @@ h2 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-/* line 109, ../scss/base/_reveiw.scss */
+/* line 113, ../scss/base/_reveiw.scss */
 .myCarouselTwo .db-11,
 .myCarouselTwo .display-pic-11 {
   background: url(../images/db/db-11.jpg) no-repeat center center;
@@ -388,7 +389,7 @@ h2 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-/* line 114, ../scss/base/_reveiw.scss */
+/* line 118, ../scss/base/_reveiw.scss */
 .myCarouselTwo .db-12,
 .myCarouselTwo .display-pic-12 {
   background: url(../images/db/db-12.jpg) no-repeat center center;
@@ -396,7 +397,7 @@ h2 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-/* line 119, ../scss/base/_reveiw.scss */
+/* line 123, ../scss/base/_reveiw.scss */
 .myCarouselTwo .db-13,
 .myCarouselTwo .display-pic-13 {
   background: url(../images/db/db-13.jpg) no-repeat center center;
@@ -404,7 +405,7 @@ h2 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-/* line 124, ../scss/base/_reveiw.scss */
+/* line 128, ../scss/base/_reveiw.scss */
 .myCarouselTwo .db-14,
 .myCarouselTwo .display-pic-14 {
   background: url(../images/db/db-14.jpg) no-repeat center center;
@@ -412,7 +413,7 @@ h2 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-/* line 129, ../scss/base/_reveiw.scss */
+/* line 133, ../scss/base/_reveiw.scss */
 .myCarouselTwo .db-15,
 .myCarouselTwo .display-pic-15 {
   background: url(../images/db/db-15.jpg) no-repeat center center;
@@ -420,7 +421,7 @@ h2 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-/* line 134, ../scss/base/_reveiw.scss */
+/* line 138, ../scss/base/_reveiw.scss */
 .myCarouselTwo .db-16,
 .myCarouselTwo .display-pic-16 {
   background: url(../images/db/db-16.jpg) no-repeat center center;
@@ -428,7 +429,7 @@ h2 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-/* line 139, ../scss/base/_reveiw.scss */
+/* line 143, ../scss/base/_reveiw.scss */
 .myCarouselTwo .db-17,
 .myCarouselTwo .display-pic-17 {
   background: url(../images/db/db-17.jpg) no-repeat center center;
@@ -436,7 +437,7 @@ h2 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-/* line 144, ../scss/base/_reveiw.scss */
+/* line 148, ../scss/base/_reveiw.scss */
 .myCarouselTwo .db-18,
 .myCarouselTwo .display-pic-18 {
   background: url(../images/db/db-18.jpg) no-repeat center center;
@@ -444,7 +445,7 @@ h2 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-/* line 149, ../scss/base/_reveiw.scss */
+/* line 153, ../scss/base/_reveiw.scss */
 .myCarouselTwo .db-19,
 .myCarouselTwo .display-pic-19 {
   background: url(../images/db/db-19.jpg) no-repeat center center;
@@ -452,7 +453,7 @@ h2 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-/* line 154, ../scss/base/_reveiw.scss */
+/* line 158, ../scss/base/_reveiw.scss */
 .myCarouselTwo .db-20,
 .myCarouselTwo .display-pic-20 {
   background: url(../images/db/db-20.jpg) no-repeat center center;
@@ -460,7 +461,7 @@ h2 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-/* line 159, ../scss/base/_reveiw.scss */
+/* line 163, ../scss/base/_reveiw.scss */
 .myCarouselTwo .db-21,
 .myCarouselTwo .display-pic-21 {
   background: url(../images/db/db-21.jpg) no-repeat center center;
@@ -468,7 +469,7 @@ h2 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-/* line 164, ../scss/base/_reveiw.scss */
+/* line 168, ../scss/base/_reveiw.scss */
 .myCarouselTwo .db-22,
 .myCarouselTwo .display-pic-22 {
   background: url(../images/db/db-22.jpg) no-repeat center center;
@@ -476,7 +477,7 @@ h2 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-/* line 169, ../scss/base/_reveiw.scss */
+/* line 173, ../scss/base/_reveiw.scss */
 .myCarouselTwo .db-23,
 .myCarouselTwo .display-pic-23 {
   background: url(../images/db/db-23.jpg) no-repeat center center;
@@ -484,7 +485,7 @@ h2 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-/* line 174, ../scss/base/_reveiw.scss */
+/* line 178, ../scss/base/_reveiw.scss */
 .myCarouselTwo .db-24,
 .myCarouselTwo .display-pic-24 {
   background: url(../images/db/db-24.jpg) no-repeat center center;
@@ -492,7 +493,7 @@ h2 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-/* line 179, ../scss/base/_reveiw.scss */
+/* line 183, ../scss/base/_reveiw.scss */
 .myCarouselTwo .db-25,
 .myCarouselTwo .display-pic-25 {
   background: url(../images/db/db-25.jpg) no-repeat center center;
@@ -500,7 +501,7 @@ h2 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-/* line 184, ../scss/base/_reveiw.scss */
+/* line 188, ../scss/base/_reveiw.scss */
 .myCarouselTwo .db-26,
 .myCarouselTwo .display-pic-26 {
   background: url(../images/db/db-26.jpg) no-repeat center center;
@@ -508,7 +509,7 @@ h2 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-/* line 189, ../scss/base/_reveiw.scss */
+/* line 193, ../scss/base/_reveiw.scss */
 .myCarouselTwo .db-27,
 .myCarouselTwo .display-pic-27 {
   background: url(../images/db/db-27.jpg) no-repeat center center;
@@ -516,7 +517,7 @@ h2 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-/* line 194, ../scss/base/_reveiw.scss */
+/* line 198, ../scss/base/_reveiw.scss */
 .myCarouselTwo .db-28,
 .myCarouselTwo .display-pic-28 {
   background: url(../images/db/db-28.jpg) no-repeat center center;
@@ -524,7 +525,7 @@ h2 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-/* line 199, ../scss/base/_reveiw.scss */
+/* line 203, ../scss/base/_reveiw.scss */
 .myCarouselTwo .db-29,
 .myCarouselTwo .display-pic-29 {
   background: url(../images/db/db-29.jpg) no-repeat center center;
@@ -532,7 +533,7 @@ h2 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-/* line 204, ../scss/base/_reveiw.scss */
+/* line 208, ../scss/base/_reveiw.scss */
 .myCarouselTwo .db-30,
 .myCarouselTwo .display-pic-30 {
   background: url(../images/db/db-30.jpg) no-repeat center center;
@@ -540,7 +541,7 @@ h2 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-/* line 209, ../scss/base/_reveiw.scss */
+/* line 213, ../scss/base/_reveiw.scss */
 .myCarouselTwo .db-31,
 .myCarouselTwo .display-pic-31 {
   background: url(../images/db/db-31.jpg) no-repeat center center;
@@ -548,7 +549,7 @@ h2 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-/* line 214, ../scss/base/_reveiw.scss */
+/* line 218, ../scss/base/_reveiw.scss */
 .myCarouselTwo .db-32,
 .myCarouselTwo .display-pic-32 {
   background: url(../images/db/db-32.jpg) no-repeat center center;
@@ -556,7 +557,7 @@ h2 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-/* line 219, ../scss/base/_reveiw.scss */
+/* line 223, ../scss/base/_reveiw.scss */
 .myCarouselTwo .db-33,
 .myCarouselTwo .display-pic-33 {
   background: url(../images/db/db-33.jpg) no-repeat center center;
@@ -564,7 +565,7 @@ h2 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-/* line 224, ../scss/base/_reveiw.scss */
+/* line 228, ../scss/base/_reveiw.scss */
 .myCarouselTwo .db-34,
 .myCarouselTwo .display-pic-34 {
   background: url(../images/db/db-34.jpg) no-repeat center center;
@@ -572,7 +573,7 @@ h2 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-/* line 229, ../scss/base/_reveiw.scss */
+/* line 233, ../scss/base/_reveiw.scss */
 .myCarouselTwo .db-35,
 .myCarouselTwo .display-pic-35 {
   background: url(../images/db/db-35.jpg) no-repeat center center;
@@ -580,7 +581,7 @@ h2 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-/* line 234, ../scss/base/_reveiw.scss */
+/* line 238, ../scss/base/_reveiw.scss */
 .myCarouselTwo .db-36,
 .myCarouselTwo .display-pic-36 {
   background: url(../images/db/db-36.jpg) no-repeat center center;
@@ -588,15 +589,15 @@ h2 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-/* line 240, ../scss/base/_reveiw.scss */
+/* line 244, ../scss/base/_reveiw.scss */
 .myCarouselTwo .reviews .col-sm-6 {
   padding: 0; }
-/* line 244, ../scss/base/_reveiw.scss */
+/* line 248, ../scss/base/_reveiw.scss */
 .myCarouselTwo .content-reveiw {
   text-align: center;
   padding: 80px 100px 50px 0px;
   font-size: 1.3em; }
-  /* line 248, ../scss/base/_reveiw.scss */
+  /* line 252, ../scss/base/_reveiw.scss */
   .myCarouselTwo .content-reveiw .content-reveiw em {
     font-size: 2em; }
 
@@ -616,7 +617,12 @@ h2 {
     -webkit-border-radius: 0;
     border-radius: 0;
     padding: 20px 10px; }
-  /* line 15, ../scss/base/_footer.scss */
+    @media (max-width: 767px) {
+      /* line 10, ../scss/base/_footer.scss */
+      .subscribe .form-control {
+        width: 100%;
+        margin: 0px 0 20px 0; } }
+  /* line 19, ../scss/base/_footer.scss */
   .subscribe .btn-primary {
     border: #333 solid 1px;
     color: #333;
@@ -625,17 +631,22 @@ h2 {
     border-radius: 0;
     background: #fff;
     padding: 8px 25px; }
+    @media (max-width: 767px) {
+      /* line 19, ../scss/base/_footer.scss */
+      .subscribe .btn-primary {
+        width: 100%;
+        margin: 0px 0 20px 0; } }
 
-/* line 24, ../scss/base/_footer.scss */
+/* line 31, ../scss/base/_footer.scss */
 .social-media {
   background: #fd7400;
   text-align: center;
   padding: 80px 0; }
-  /* line 28, ../scss/base/_footer.scss */
+  /* line 35, ../scss/base/_footer.scss */
   .social-media h3 {
     color: #fff0e4;
     padding-bottom: 20px; }
-  /* line 32, ../scss/base/_footer.scss */
+  /* line 39, ../scss/base/_footer.scss */
   .social-media .btn-primary {
     border: #fff0e4 solid 2px;
     color: #fff0e4;
@@ -645,24 +656,29 @@ h2 {
     background: #fd7400;
     padding: 8px 25px;
     margin-left: 5px; }
+    @media (max-width: 767px) {
+      /* line 39, ../scss/base/_footer.scss */
+      .social-media .btn-primary {
+        width: 90%;
+        margin: 0px 0px 20px 0px; } }
 
-/* line 42, ../scss/base/_footer.scss */
+/* line 52, ../scss/base/_footer.scss */
 .copyright {
   background: #464646;
   padding: 20px 0;
   color: #b9b9b9; }
-  /* line 46, ../scss/base/_footer.scss */
+  /* line 56, ../scss/base/_footer.scss */
   .copyright a {
     color: #b9b9b9;
     margin-left: 15px; }
-    /* line 49, ../scss/base/_footer.scss */
+    /* line 59, ../scss/base/_footer.scss */
     .copyright a:hover {
       text-decoration: none; }
 
-/* line 55, ../scss/base/_footer.scss */
+/* line 65, ../scss/base/_footer.scss */
 .rocket {
   position: relative; }
-  /* line 57, ../scss/base/_footer.scss */
+  /* line 67, ../scss/base/_footer.scss */
   .rocket div {
     position: absolute;
     right: 15px;
